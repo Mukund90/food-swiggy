@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
+     "postinstall": "npm rebuild @parcel/watcher",
     "build": "parcel index.html",
     "test": "jest"
   },
